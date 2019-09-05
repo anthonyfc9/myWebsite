@@ -1,0 +1,144 @@
+
+/* section 1 begins here */
+.sectionOne{
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/28/d0/71/28d07105a480b923ebf544f90131e0d2.gif');
+    /* background-size: cover; */
+    background-position: center;
+    height: 100vh;
+    width:auto;
+  
+}
+.sectionOneContainer{
+    position: relative;
+    padding: 35vh 0;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .sectionOneContainer{   padding: 20vh 0;}}
+
+
+
+#myName{
+ color:#F5F5F5 ;
+ font-size: 5rem;
+ position: relative;
+ padding-right: 30vw;
+}
+#whoAmI{
+    color: #F5F5F5    ;
+    font-size: 3rem;
+    position: relative;
+    padding-left: 7vw;
+}
+
+/*footer begins here */
+
+.footer{
+text-align: center;
+background-color: #2A2C2B;
+}
+
+    .email{
+     margin-top: 30px;
+    width:65vw;
+    height: 50px;
+    border-radius: 30px;
+    border-color:#BEBDBF;
+    border-style: solid;
+    padding-inline-start: 10px;
+    }   
+    .contact{
+        margin-top:30px;
+        margin-bottom: 30px;
+        width: 65vw;
+        height: 50px;
+        border-radius: 30px;
+        border-color:#BEBDBF;
+        border-style: solid;
+        padding-inline-start: 10px;
+    } 
+    input:focus, textarea {
+    outline: none !important;
+    }
+    textarea{
+    width: 80vw;
+    border-width: 2.5px;
+    border-radius: 30px;
+    border-color:#BEBDBF;
+    border-style: solid;
+    }
+    .loginSignUpButton{
+        margin-bottom: 30px;
+        background-color: #eeedee;
+        text-decoration-color: #2A2C2B;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 25px;
+        padding: 7px;
+        width: 100px
+        }
+#contactMe{
+    padding:15px;
+    color: #eeedee
+}
+
+/* abput meeeeeeee */
+.centerME{
+padding-top: 20px;
+width: 90vw;
+margin-right: auto;
+margin-left: auto;
+}
+.aboutMe{
+    background-color: #2A2C2B;
+    height:100vh;
+}
+.textWhite{
+    color: #eeedee;
+}
+.headings{margin-right: auto;
+margin-left: auto;}
+
+
+
+/* experience  */
+.myEXP{
+    background-color: #2A2C2B;
+}
+.projectCard{
+width:20vw;
+height: 20vh;
+margin: 20px;
+}
+.flexContain{
+    display:flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 500px) {
+    .projectCard{
+        width:90vw;
+        height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:20px;
+        }
+        .flexContain{
+
+            display:flex;
+            flex-direction: column;
+        }
+}
+
+.projone{
+    background-image: url('../img/website.png');
+    background-position: center;
+}
+.projtwo{
+    background-image: url('../img/website.png');
+    background-position: center;
+}
+.projthree{
+    background-image: url('../img/website.png');
+    background-position: center;
+}
