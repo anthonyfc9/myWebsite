@@ -84,6 +84,9 @@ background-color: #2A2C2B;
 }
 
 /* abput meeeeeeee */
+.aboutMeDesc{
+    text-align: left
+}
 .centerME{
 padding-top: 20px;
 width: 90vw;
@@ -93,11 +96,14 @@ margin-left: auto;
 .aboutMe{
     background-color: #2A2C2B;
     height:100vh;
+    text-align: center;
 }
 .textWhite{
     color: #eeedee;
 }
-.headings{margin-right: auto;
+.headings{
+    display: inline;
+    margin-right: auto;
 margin-left: auto;}
 
 
@@ -105,11 +111,16 @@ margin-left: auto;}
 /* experience  */
 .myEXP{
     background-color: #2A2C2B;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    text-align: center;
 }
 .projectCard{
 width:20vw;
 height: 20vh;
 margin: 20px;
+background-size: auto 20vh;
+
 }
 .flexContain{
     display:flex;
@@ -122,6 +133,7 @@ margin: 20px;
         margin-left: auto;
         margin-right: auto;
         margin-top:20px;
+        background-size: auto 30vh;
         }
         .flexContain{
 
@@ -133,6 +145,7 @@ margin: 20px;
 .projone{
     background-image: url('../img/website.png');
     background-position: center;
+
 }
 .projtwo{
     background-image: url('../img/website.png');
@@ -141,4 +154,12 @@ margin: 20px;
 .projthree{
     background-image: url('../img/website.png');
     background-position: center;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;;
+}
+
+.experiences{
+    text-align: left;
 }
