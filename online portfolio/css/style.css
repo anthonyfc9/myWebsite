@@ -5,19 +5,23 @@
     background-image: url('https://i.pinimg.com/originals/28/d0/71/28d07105a480b923ebf544f90131e0d2.gif');
     /* background-size: cover; */
     background-position: center;
-    height: 100vh;
+ height: auto;
     width:auto;
   
 }
 .sectionOneContainer{
     position: relative;
-    padding: 35vh 0;
+    padding: 20vh 0;
     text-align: center;
 }
-@media screen and (max-width: 500px) {
-    .sectionOneContainer{   padding: 20vh 0;}}
+@media screen and (min-width: 500px) {
+    .sectionOneContainer{
+        padding: 35vh 0;
+}
+.sectionOne{    height: 100vh;}
+}
 
-
+.sectionOne
 
 #myName{
  color:#F5F5F5 ;
